@@ -1,0 +1,102 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Kevin Escobar </title>
+<style>
+/* Ejemplo de estilo básico para organizar */
+.topnav {
+  background-color: #e68c8c;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #e68c8c;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.row {
+  display: flex;
+}
+.row__column {
+  flex: 1;
+  padding: 10px;
+}
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #cc8c8c;
+}
+</style>
+</head>
+<body>
+
+<h1>My firs Web</h1>
+
+<!-- Crear el menú -->
+<div class="topnav">
+  <a href="https://www.mined.gob.sv/">INICIO</a>
+  <a href="#">MISION</a>
+  <a href="#">VISION</a>
+  <a href="https://www.nintendo.com/us/">CecilioCabrera</a>
+</div>
+
+<!-- Cuerpo de la página -->
+<div class="row">
+  <div class="row__column side">
+    <h2>tienda de motos kawasaki</h2>
+    <p>Enrique pensar en nada lo digo con potestad.</p>
+  </div> llevatela 
+  <div class="row__column middle">
+    <h2>Columna</h2>
+    <p>Lorem, No lo creo es insultante</p>
+  </div>
+  <div class="row__column side">
+    <h2>Columna 3</h2>
+    <p>Y entonces qué hacemos</p>
+  </div>
+</div>
+
+<!-- Pie de Página -->
+<div class="footer">
+  <h3>COMPRA TU KAWASAKI Y CONOCE SU POTENCIAL</h3>
+</div>
+
+<div class="footer">
+  <h3>HECHAS PARA CORRER</h3>
+</div>
+
+<div class="footer">
+  <h3>CONOCE LA ADRENALINA</h3>
+</div>
+
+<!-- Audio -->
+<audio controls>
+  <source src="wwd.mp3juice.blog - Kawasaki Ninja H2R Sound Supercharged Compressor (320 KBps).mp3" type="audio/mp3">
+  Tu navegador no soporta audio HTML5.
+</audio>
+
+<!-- Imágenes en movimiento -->
+<marquee>
+  <img src="OIP.webp" height="200" alt="Imagen en movimiento">
+</marquee>
+
+<marquee behavior="alternate">
+  <img src="OIP (1).webp"400" height="200"
+       onmouseover="this.src='nip2.jpg'"
+       onmouseout="this.src='Cari2.png'"
+       alt="Imagen alternativa">
+</marquee>
+
+<!-- Video -->
+<video width="600" height="400" controls>
+  <source src="Download.mp4"video/mp4">
+</video>
+
+<!-- Enlaces finales -->
+<p><a href="Base Access China.html">Registros</a></p>
+<p><a href="index.html">A hoja 2</a></p>
+<p><a href="iindex.htm">A hoja 3</a></p>
+
+</body>
+</html>
